@@ -8,9 +8,8 @@ Think fast, pick your 5-letter words wisely, and try to beat the daily limit wit
 
 ## Quick Start
 
-Make sure you have Java 21 and Maven installed.
-
-Run the application:
+### Option 1: Run with Maven
+Make sure you have Java 21 and Maven installed:
 ```bash
 mvn javafx:run
 ```
@@ -18,6 +17,12 @@ mvn javafx:run
 Run test suite:
 ```bash
 mvn test
+```
+
+### Option 2: Run Pre-built Executable JAR
+Download the standalone executable JAR from the [Releases](https://github.com/Captain-Rohith/GuessTheWorld/releases) section and run:
+```bash
+java -jar guess-the-world-1.0.0.jar
 ```
 
 ---
